@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="testecommerce" guice-stage="DEVELOPMENT">
+  <test name="Test1">
+    <classes>
+      <class name="testcases.TestCases">
+        <methods>
+          <include name="logininEcommerce"/>  
+        </methods>
+      </class> 
+    </classes>
+  </test>
+  <test name="Test2">
+    <classes>
+      <class name="testcases.TestCases">
+        <methods>
+          <include name="buyProduct"/>  
+        </methods>
+      </class> 
+    </classes>
+  </test>
+</suite> 
